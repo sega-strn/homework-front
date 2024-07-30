@@ -1,6 +1,7 @@
 import "./App.css";
 import { HW2 } from "./HW/2/HW2";
 import { HW1 } from "./HW/1/HW1";
+import React from "react";
 import { HW3 } from "./HW/3/HW3";
 
 function App() {
