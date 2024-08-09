@@ -1,6 +1,6 @@
 type InputPropsType = {
   currentText: string;
-  setCurrentText: React.Dispatch<React.SetStateAction<string>>; // НУЖНО ПРОТИПИЗИРОВАТЬ
+  setCurrentText: React.Dispatch<React.SetStateAction<string>>;
 };
 
 export const Input = (props: InputPropsType) => {

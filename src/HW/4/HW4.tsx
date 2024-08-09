@@ -13,7 +13,6 @@ export const HW4 = () => {
   // - приложение должно компилироваться и запускаться в браузере
 
   // ❗ Массив с данными не трогаем! Текст не меняем !
-  // 🔔 ВАШ КОД НИЖЕ:
 
   const [currentText, setCurrentText] = useState("");
   const [texts, setTexts] = useState<string[]>([
@@ -35,7 +34,7 @@ export const HW4 = () => {
 
       <Input currentText={currentText} setCurrentText={setCurrentText} />
 
-      <Button callBack={handleSave} name={"SAVE"} />
+      <Button name={"save"} callBack={handleSave} />
 
       <h1 style={{ marginTop: "50px" }}>СПИСОК ДЕЛ НА ДЕНЬ:</h1>
 
