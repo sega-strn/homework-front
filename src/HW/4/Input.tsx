@@ -1,5 +1,5 @@
 type InputPropsType = {
-  currentText: string; // НУЖНО ПРОТИПИЗИРОВАТЬ
+  currentText: string;
   setCurrentText: React.Dispatch<React.SetStateAction<string>>; // НУЖНО ПРОТИПИЗИРОВАТЬ
 };
 
